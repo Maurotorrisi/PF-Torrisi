@@ -1,0 +1,28 @@
+div{
+    a{
+        img{
+            width: 100%;
+        }
+    }
+}
+
+.portada:hover{
+    @include sombra
+}
+
+.item:hover{
+    box-shadow: 3px 5px 7px rgb(10, 0, 0);
+    transition: all 0.3s;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+.item__infoproduct1{
+    text-decoration: none;
+    color: rgb(36, 30, 30);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-shadow: 2px 1px 3px black;
+    border-radius: 3px;
+    
+}

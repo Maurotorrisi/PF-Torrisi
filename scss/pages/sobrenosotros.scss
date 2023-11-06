@@ -1,0 +1,15 @@
+.remarcado{
+    font-weight: bold;
+}
+
+
+.card{
+    transition: all 0.5s;
+    border-radius: 25px;
+    &:hover{
+    box-shadow:3px 5px 7px rgb(10, 0, 0) ;
+    cursor: pointer;
+    
+    
+}
+}

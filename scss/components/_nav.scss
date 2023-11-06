@@ -1,0 +1,27 @@
+.logo{
+    width: 100px;
+    border-radius: 50px;
+    margin-right: 10px;
+    &:hover{
+        @include sombra
+    }
+}
+
+
+.color-boton{
+    color: #3b3d94;
+    border-color: #3b46ac;
+            &:hover{color: #fff;
+    background-color: #3b4db3;
+    border-color: #2b1b86;
+    }
+            &:focus{box-shadow:rgb(19, 25, 104);
+            }
+            &:active{color: #ffffff;
+    background-color: #1b1986;
+    border-color: #1b1d83;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);}
+            &:disabled{color: #2b1a8b;
+    background-color: transparent;
+    border-color: #2b2999;}
+}
